@@ -2,7 +2,7 @@
 
 var TldrBot = require("./tldrbot.js");
 
-var token = "xoxb-150397201446-Cy7MELDwJp3P6zwGar10IP5t";
+var token = process.env.BOT_API_KEY;
 //var dbPath = process.env.BOT_DB_PATH;
 var name = "tldrbot";
 
